@@ -49,3 +49,79 @@ Includes Windows asyncio compatibility fix.
 ---
 
 t.me/officialmonsterz
+
+
+# 📂 Project Structure
+{
+  "provider": "twilio",
+  "api": {
+    "twilio": {
+      "api_key": "YOUR_SID",
+      "api_secret": "YOUR_TOKEN"
+    }
+  }
+}
+📱 numbers.txt Format
+
+One number per line:
+
++14155552671
++2348012345678
++447911123456
+🚀 Run Script
+python monster.py
+📊 Output
+
+Results are exported automatically:
+
+TXT Report
+results.txt
+JSON Backup
+results.json
+SQLite Database
+monster.db
+📋 Menu Options
+Option	Function
+1	Validate numbers.txt
+2	Edit API config
+3	Generate test numbers
+4	View results
+5	Exit
+
+
+# 📂 Project Structure
+{
+  "provider": "twilio",
+  "api": {
+    "twilio": {
+      "api_key": "YOUR_SID",
+      "api_secret": "YOUR_TOKEN"
+    }
+  }
+}
+📱 numbers.txt Format
+
+One number per line:
+
++14155552671
++2348012345678
++447911123456
+🚀 Run Script
+python monster.py
+📊 Output
+
+Results are exported automatically:
+
+TXT Report
+results.txt
+JSON Backup
+results.json
+SQLite Database
+monster.db
+📋 Menu Options
+Option	Function
+1	Validate numbers.txt
+2	Edit API config
+3	Generate test numbers
+4	View results
+5	Exit
