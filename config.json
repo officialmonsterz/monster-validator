@@ -1,0 +1,18 @@
+{
+  "input_file": "numbers.txt",
+  "output_file": "results.json",
+  "provider": "numverify",
+  "api": {
+    "twilio": {
+      "api_key": "",
+      "api_secret": ""
+    },
+    "numverify": {
+      "api_key": ""
+    }
+  },
+  "settings": {
+    "concurrency": 10,
+    "mobile_only": false
+  }
+}
